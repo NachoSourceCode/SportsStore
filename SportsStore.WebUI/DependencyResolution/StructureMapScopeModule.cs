@@ -1,8 +1,8 @@
 namespace SportsStore.WebUI.DependencyResolution {
     using System.Web;
-
+    using System.Configuration;
     using SportsStore.WebUI.App_Start;
-
+    using System.Collections.Generic;
     using StructureMap.Web.Pipeline;
 
     public class StructureMapScopeModule : IHttpModule {
