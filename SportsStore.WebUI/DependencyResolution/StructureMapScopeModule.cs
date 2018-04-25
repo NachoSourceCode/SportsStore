@@ -8,7 +8,9 @@ namespace SportsStore.WebUI.DependencyResolution {
     public class StructureMapScopeModule : IHttpModule {
         #region Public Methods and Operators
 
-        public void Dispose() {
+        public void Dispose()
+        {
+
         }
 
         public void Init(HttpApplication context) {
